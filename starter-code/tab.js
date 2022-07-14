@@ -51,7 +51,7 @@ function changeTabPanel(e) {
         
     targetTab.setAttribute("aria-selected", true);
     
-    hideContent(mainContainer, '[role="tabpanel"]');
+    hideContent(mainContainer, '[role="content"]');
     showContent(mainContainer, [`#${targetPanel}`]);
     
     hideContent(mainContainer, '[role="img"]');
